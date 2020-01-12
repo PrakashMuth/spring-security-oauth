@@ -1,0 +1,10 @@
+server:
+  port: 9090
+  servlet:
+    context-path: /auth
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/authserver
+    username: postgres
+    password: password
