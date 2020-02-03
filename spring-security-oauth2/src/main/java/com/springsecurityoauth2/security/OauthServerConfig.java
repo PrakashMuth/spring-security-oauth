@@ -20,7 +20,6 @@ import javax.sql.DataSource;
 
 @Configuration
 @RequiredArgsConstructor
-@EnableAuthorizationServer
 public class OauthServerConfig extends AuthorizationServerConfigurerAdapter {
     private final UserDetailsService userDetailsService;
     private final DataSource dataSource;

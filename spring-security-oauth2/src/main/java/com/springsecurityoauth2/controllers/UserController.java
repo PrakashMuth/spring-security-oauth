@@ -14,4 +14,14 @@ public class UserController {
     public AuthUserDetails user(@AuthenticationPrincipal AuthUserDetails authUserDetails) {
         return authUserDetails;
     }
+
+    @GetMapping("/hello")
+    public String helloWorld() {
+        return "hello world";
+    }
+
+    @GetMapping("/world")
+    public String testWorld() {
+        return "World Test";
+    }
 }
