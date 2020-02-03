@@ -93,13 +93,13 @@ Here is an explanation of the link components:
 
 - **scope=read**: specifies the level of access that the application is requesting
 
-  ![](C:\Users\Prakash-OneData\AppData\Roaming\Typora\typora-user-images\image-20200203132621436.png)
+  ![](spring-security-oauth2\src\main\resources\static\assets\images\Capture.PNG)
 
 ### Step 2: User Authorizes Application
 
 When the user clicks the link, they must first log in to the service, to authenticate their identity (unless they are already logged in). Then they will be prompted by the service to *authorize* or *deny* the application access to their account. Here is an example authorize application prompt:
 
-![image-20200203133518140](C:\Users\Prakash-OneData\AppData\Roaming\Typora\typora-user-images\image-20200203133518140.png)
+![](spring-security-oauth2/src/main/resources/static/assets/images/capture1.png)
 
 ### Step 3: Application Receives Authorization Code
 
