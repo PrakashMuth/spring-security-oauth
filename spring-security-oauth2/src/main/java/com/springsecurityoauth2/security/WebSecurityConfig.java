@@ -12,9 +12,9 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     @Override
     protected void configure(HttpSecurity http) throws Exception {
-        http.requestMatchers().antMatchers("/login", "/oauth/authorize","/api/hello")
+        http.requestMatchers().antMatchers("/login", "/oauth/authorize")
                 .and().authorizeRequests()
-                .antMatchers("/login", "/oauth/authorize","/api/hello").permitAll()
+                .antMatchers("/login", "/oauth/authorize").permitAll()
                 .and().authorizeRequests().anyRequest()
                 .authenticated().and().formLogin().permitAll();
     }
