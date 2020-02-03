@@ -93,7 +93,7 @@ Here is an explanation of the link components:
 
 - **scope=read**: specifies the level of access that the application is requesting
 
-  ![](spring-security-oauth2\src\main\resources\static\assets\images\Capture.PNG)
+  ![](spring-security-oauth2/src/main/resources/static/assets/images/capture.png)
 
 ### Step 2: User Authorizes Application
 
